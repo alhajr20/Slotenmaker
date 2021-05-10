@@ -135,6 +135,25 @@ header{
     }
 }
 
+.phone-number {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    background-color: rgb(0, 170, 65);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100%;
+    z-index: 10;
+}
+
+.phone-number svg {
+    fill: #fff;
+    width: 40px;
+    height: 40px;
+    stroke: none;
+}
+
 /* Advantages */
 .advantages {
     padding: 50px 0;
